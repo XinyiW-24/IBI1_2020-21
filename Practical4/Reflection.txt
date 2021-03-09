@@ -1,6 +1,6 @@
 1. I had errors at some steps but I don’t know how to correct them. So I had to try again from the first step, which spent me a lot of time. 
 2. The WLAN was poor on campus, which made it hard for us at the “git push” step.
-3. I was easy to forget to add files and commit them. I need to practice more on Git.
+3. It was easy for me to forget to add files and commit them. I need to practice more on Git.
 
 Although this practical took me lots of time, I was more familiar with “Git” and “GitHub”, and my speed of typing increased. I learned to read the instructions in the git, ask the teacher and my friends for help, and search online to find methods to correct my error.
 
