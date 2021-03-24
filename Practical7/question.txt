@@ -2,4 +2,4 @@ How have new cases and total cases developed over time in Spain?
 Line number: 72 to 93
 The new cases had an upward trend before 2020/03/27 and had an downward trend after 2020/03/27.
 The number of total cases increased rapidly after 2020/03/08.
-There was a small number of patients before 2020/03/08. People did not pay much attention to the COVID-19 and the patients infected other people which caused a larger number of new cases and the rapid increment of total cases in the flowing days. People paid much attention to it and the number of new cases was a little smaller after 2020/03/27 momently.
+There was a small number of patients before 2020/03/08. People did not pay much attention to the COVID-19 and the patients infected other people which caused a larger number of new cases and the rapid increment of total cases in the flowing days. People paid much attention to it and the number of new cases was a little smaller after 2020/03/27.
