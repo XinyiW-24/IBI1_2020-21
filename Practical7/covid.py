@@ -59,8 +59,8 @@ world_new_cases=covid_data.loc[world,"new_cases"]
 world_new_deaths=covid_data.loc[world,"new_deaths"]
 world_dates=covid_data.loc[world,"date"]
 
-plt.plot(world_dates, world_new_cases,'b-',label='new cases')    #set the points and legend
-plt.plot(world_dates, world_new_deaths,'r-',label='new deaths') #set the points and legend
+plt.plot(world_dates, world_new_cases,'b-',label='new cases')                               #set the points and legend
+plt.plot(world_dates, world_new_deaths,'r-',label='new deaths')                             #set the points and legend
 plt.legend()                                                                                #show the legend
 plt.ylabel('number')                                                                        #set the name ofy-axis
 plt.xlabel('date')                                                                          #set the name of x-axis
