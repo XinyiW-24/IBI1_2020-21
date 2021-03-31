@@ -37,4 +37,6 @@ for i in range(len(seq)):#combine the two lists (seq and names) together
     
 #write name,length,sequence to a file
 f=open('unknown_function.fa','w')
-f.write(x)
+f.write(x)#write x into the file
+file.close#close file
+f.close#close f

@@ -60,6 +60,7 @@ for i in range(len(seq)*2):
         x=x+protein+'\n
 f=open('C:\\Users\\wxy\\IBI1_2020-21\\Practical8\\unknown_function_protein.fa','w')
 f.write(x)#write x into the file
-
+file.close#close file
+f.close#close f
 
 
