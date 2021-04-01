@@ -57,7 +57,7 @@ for i in range(len(seq)*2):
         protein=''
         for d in range(0,len(seq[int((i-1)/2)]),3):#translate each 3 codes to amino acid
             protein=protein+amino_acid[s[d:d+3]]
-        x=x+protein+'\n
+        x=x+protein+'\n'
 f=open('C:\\Users\\wxy\\IBI1_2020-21\\Practical8\\unknown_function_protein.fa','w')
 f.write(x)#write x into the file
 file.close#close file
