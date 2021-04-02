@@ -7,11 +7,12 @@ lines=file.readlines()
 #put names and sequence into different lists
 names=[]
 seq=[]
+length=[]
 
 for i in range(len(lines)):
     if lines[i].startswith('>') and re.search(r'unknown function',lines[i]):#find the line which has name of DNA
-        name=str(re.findall(r'>(.+)_mRNA',lines[i]))#find the name 
-        names.append(name)#add name to list called names
+        name=re.findall(r'>(.+)_mRNA',lines[i])#find the name 
+        names.append(name[0])#add name to list called names
     elif lines[i-1].startswith('>')and re.search(r'unknown function',lines[i-1]):#find the first line of DNA sequence
         DNA=''#empty the string called DNA
         for j in range(i,len(lines)):#add the following lines of DNA sequence to the same string called DNA
@@ -21,11 +22,10 @@ for i in range(len(lines)):
                 line=re.sub(r'\n','',lines[j])#remove'\n'
                 DNA=DNA+line
         seq.append(DNA)#add DNA to list called seq
-length=[]
-for i in range(len(seq)):#count the lenth of each DNA sequence and add to the list called l
+        
+for i in range(len(seq)):
     l=len(seq[i])
     length.append(l)
-        
 x=''
 
 for i in range(len(seq)):#combine the two lists (seq and names) together 

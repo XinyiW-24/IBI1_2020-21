@@ -10,8 +10,8 @@ seq=[]
 
 for i in range(len(lines)):
     if lines[i].startswith('>') and re.search(r'unknown function',lines[i]):#find the line which has name of DNA
-        name=str(re.findall(r'>(.+)_mRNA',lines[i]))#find the name
-        names.append(name)#add name to list called names
+        name=re.findall(r'>(.+)_mRNA',lines[i])#find the name
+        names.append(name[0])#add name to list called names
     elif lines[i-1].startswith('>')and re.search(r'unknown function',lines[i-1]):#find the first line of DNA sequence
         DNA=''#empty the string called DNA
         for j in range(i,len(lines)):#add the following lines of DNA sequence to the same string called DNA
