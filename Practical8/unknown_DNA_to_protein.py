@@ -1,6 +1,6 @@
-import os
+
 import re
-os.chdir('C:\\Users\\wxy\\IBI1_2020-21\\Practical8\\')
+
 file=open('Saccharomyces_cerevisiae.R64-1-1.cdna.all.fa','r')#open the file
 lines=file.readlines()
 
