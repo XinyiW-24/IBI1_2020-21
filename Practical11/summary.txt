@@ -1,0 +1,14 @@
+human sequence and mouse sequence:
+alignment score: 1091
+the percentage of identical amino acids: 89.6%. 
+
+human sequence and random sequence:
+alignment score: -250
+the percentage of identical amino acids: 5.4%. 
+
+mouse sequence and random sequence:
+alignment score: -250
+the percentage of identical amino acids: 5.9%. 
+
+interpretation:
+The comparison between the human sequence and the mouse sequence shows that there is a large similarity between the mouse gene and the human gene. Human and mouse are mammals and have high similarity in genes, so the percentage of their identical amino acid sequences is relatively high compared to the other two comparisons.
