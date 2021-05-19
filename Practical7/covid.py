@@ -1,7 +1,10 @@
+import os
 import pandas as pd
 import matplotlib.pyplot as plt
 import numpy as np
 
+# change directory
+os.chdir("C:\\Users\\wxy\\IBI1_2020-21\\Practical7")
 
 #The code for importing the .csv file                    
 covid_data=pd.read_csv("full_data.csv")                                                     #import the full_data.csv
